@@ -37,7 +37,7 @@ jobs:
         run: yarn
       
       - name: Build
-        run: npx nx build --prod --base-href=adr-news/
+        run: npx nx build --prod --base-href=/adr-news/
         
       - name: Setup Pages
         uses: actions/configure-pages@v2
