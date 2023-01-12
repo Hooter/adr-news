@@ -1,0 +1,9 @@
+<h2 class="mat-headline-6">Новости</h2>
+<button mat-raised-button color="primary" (click)="addNews()">Добавить новость</button>
+<div class="news-list"
+  infiniteScroll
+  (scrolled)="onScroll($event)">
+
+  <adr-news *ngFor="let news of news$ | async; trackBy: newsTrackById" [news]="news" [routerLink]="['/news/'+news.url]"></adr-news>
+  <mat-spinner class="spinner" *ngIf="(loading$ | async) && (loadNewsComplete$ | async) === false"></mat-spinner>
+</div>

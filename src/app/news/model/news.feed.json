@@ -1,0 +1,104 @@
+{
+  "news": [
+    {
+      "id": 7295,
+      "title": "Поздравляем с Новым годом!",
+      "description": "Поздравляем с Новым годом!",
+      "publishedDate": "2022-12-31T00:00:00",
+      "url": "novosti-kompanii/1401",
+      "fullUrl": "https://www.autodoc.ru/novosti-kompanii/1401",
+      "titleImageUrl": "https://file.autodoc.ru/news/newyear_2022.jpg",
+      "categoryType": "Новости компании"
+    },
+    {
+      "id": 7294,
+      "title": "Китайский аналог Hummer впечатляет брутальной внешностью",
+      "description": "Концерн Dongfeng из Китая показал эффектную новинку",
+      "publishedDate": "2022-12-30T00:00:00",
+      "url": "avto-novosti/dongfeng_mengshi",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/dongfeng_mengshi",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/221873392_1.jpg",
+      "categoryType": "Автомобильные новости"
+    },
+    {
+      "id": 7292,
+      "title": "Самый аэродинамичный кроссовер в мире: китайский электромобиль Nio EC7",
+      "description": "Китайская компания Nio выпустила новую модель в линейке кроссоверов",
+      "publishedDate": "2022-12-29T00:00:00",
+      "url": "avto-novosti/neo_ec7",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/neo_ec7",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/141551566_1.jpg",
+      "categoryType": "Автомобильные новости"
+    },
+    {
+      "id": 7291,
+      "title": "График работы магазинов в период новогодних праздников",
+      "description": "График работы филиалов нашего интернет-магазина магазина в период с 31 декабря по 9 января",
+      "publishedDate": "2022-12-28T00:00:00",
+      "url": "novosti-kompanii/1400",
+      "fullUrl": "https://www.autodoc.ru/novosti-kompanii/1400",
+      "categoryType": "Новости компании"
+    },
+    {
+      "id": 7290,
+      "title": "Mercedes-AMG CLA 45 S от VATH впечатляет мощностью и динамикой",
+      "description": "динамикой Немецкая тюнинговая компания VATH, как и положено тюнинг-ателье, оказалась недовольна стоковой производительностью Mercedes-AMG CLA 45 S ",
+      "publishedDate": "2022-12-28T00:00:00",
+      "url": "avto-novosti/Mercedes-AMG_CLA_45_S",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/Mercedes-AMG_CLA_45_S",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/424014087_3.jpg",
+      "categoryType": "Автомобильные новости"
+    },
+    {
+      "id": 7283,
+      "title": "MINI отмечает 30-летие моделей с откидным верхом выпуском Seaside Edition",
+      "description": "30 лет назад компания MINI выпустила первый четырехместный кабриолет Cooper",
+      "publishedDate": "2022-12-27T00:00:00",
+      "url": "avto-novosti/mini_cooper",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/mini_cooper",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/4260662273_12.jpg",
+      "categoryType": "Автомобильные новости"
+    },
+    {
+      "id": 7277,
+      "title": "Полноприводный Cadillac Lyriq готовится к презентации в Китае",
+      "description": "Cadillac Lyriq — один из лучших электрических кроссоверов на рынке",
+      "publishedDate": "2022-12-26T00:00:00",
+      "url": "avto-novosti/cadillac_lyriq_info",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/cadillac_lyriq_info",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/4173349559_1.jpg",
+      "categoryType": "Автомобильные новости"
+    },
+    {
+      "id": 7275,
+      "title": "Новый электрический кроссовер Aera получил массивный выдвижной экран",
+      "description": "Миланский стартап по производству электромобилей Aera ",
+      "publishedDate": "2022-12-23T00:00:00",
+      "url": "avto-novosti/aera",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/aera",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/3921760522_5.jpg",
+      "categoryType": "Автомобильные новости"
+    },
+    {
+      "id": 7274,
+      "title": "Озвучены цены на новый Москвич",
+      "description": "Стали известны цены на новинки российского автопрома ",
+      "publishedDate": "2022-12-22T00:00:00",
+      "url": "avto-novosti/Москвич_3е",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/Москвич_3е",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/3829412111_1.jpg",
+      "categoryType": "Автомобильные новости"
+    },
+    {
+      "id": 7272,
+      "title": "Эпоха Kia Stinger подошла к концу. Венцом станет версия Tribute Edition",
+      "description": "Kia Stinger вот-вот уйдет с конвейера",
+      "publishedDate": "2022-12-21T00:00:00",
+      "url": "avto-novosti/kia_tribute_edition",
+      "fullUrl": "https://www.autodoc.ru/avto-novosti/kia_tribute_edition",
+      "titleImageUrl": "https://file.autodoc.ru/news/avto-novosti/3749819933_1.jpg",
+      "categoryType": "Автомобильные новости"
+    }
+  ],
+  "totalCount": 1045
+}

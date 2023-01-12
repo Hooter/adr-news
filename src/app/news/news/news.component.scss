@@ -1,0 +1,12 @@
+
+@use '@angular/material' as mat;
+
+mat-card {
+  margin: 0.5rem 0;
+      img{
+        height: fit-content;
+  }
+  &:hover {
+    @include mat.elevation(12);
+  }
+}

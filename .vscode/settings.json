@@ -1,0 +1,6 @@
+{
+  "jest.jestCommandLine": "node_modules/.bin/jest",
+  "exportall.config.folderListener": [
+    "/src/app/news"
+  ]
+}

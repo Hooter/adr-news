@@ -1,0 +1,35 @@
+<!-- <p>
+  «Название» - текстовое поле.
+ «Описание» - текстовое поле.
+ «Прикрепить фото» - кнопка, реализует функционал добавления фото (достаточно одной).
+ «Сохранить» - кнопка, добавляет новость в начало списка. При этом уже загруженные
+ранее данные сохраняются.</p> -->
+
+<h2 mat-dialog-title>Добавить новости</h2>
+<mat-dialog-content class="mat-typography">
+  <form class="news-form" [formGroup]="newsForm" (ngSubmit)="onSubmit()">
+    <mat-form-field class="news-full-width">
+      <mat-label>Название</mat-label>
+      <input matInput placeholder="Введите заголовок новости" formControlName="title">
+    </mat-form-field>
+
+    <mat-form-field class="news-full-width">
+      <mat-label>Описание</mat-label>
+      <textarea matInput placeholder="Введите содержимое новости.." formControlName="description"></textarea>
+    </mat-form-field>
+  <!--
+    <button type="button" mat-raised-button (click)="fileInput.click()">Прикрепить фото</button>
+    <input hidden (change)="onFileSelected()" #fileInput type="file" id="file"> -->
+
+    <button type="button" mat-raised-button (click)="fileInput.click()">Прикрепить фото</button>
+    <input hidden (change)="onFileSelected($event)" #fileInput type="file" accept="image/*">
+    <span class="file-name">{{selectedFile}}</span>
+  </form>
+  <!-- <p>{{ newsForm.value | json }}</p> -->
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close type="button">Отмена</button>
+  <!-- The mat-dialog-close directive optionally accepts a value as a result for the dialog. -->
+  <button mat-button color="primary" [mat-dialog-close]="newsForm.value" type="submit">Сохранить</button>
+</mat-dialog-actions>
